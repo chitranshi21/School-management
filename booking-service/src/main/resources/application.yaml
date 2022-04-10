@@ -1,0 +1,15 @@
+server:
+  port: 8410
+spring:
+  application:
+    name: booking-service
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/booking
+    username: admin
+    password: admin
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
